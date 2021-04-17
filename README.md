@@ -22,13 +22,13 @@
 
 - npm >=5.5.0
 - node >=9.3.0
-    ```npm install puppeteer
-    ```
+- npm install puppeteer
+    
 
 ## Usage
 
-```npm run start
-```
+- npm run start
+
 
 ## Author
 
