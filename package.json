@@ -1,0 +1,17 @@
+{
+    "name": "crunchyroll",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "node index.js"
+    },
+    "author": "DVLaD",
+    "license": "ISC",
+    "dependencies": {
+      "puppeteer": "^8.0.0"
+    },
+    "url": "https://www.crunchyroll.com/simulcastcalendar?filter=premium&date="
+  }
+  
