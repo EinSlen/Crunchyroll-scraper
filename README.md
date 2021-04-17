@@ -1,4 +1,5 @@
 <h1 align="center">Welcome to Crunchyroll scraper 👋</h1>
+<h2 align="center">Is scraper for crunchyroll silumcast calendar</h2>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
   <img src="https://img.shields.io/badge/npm-%3E%3D5.5.0-blue.svg" />
