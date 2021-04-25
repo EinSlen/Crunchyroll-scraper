@@ -6,4 +6,9 @@ function date() {
     return `${ye}-${mo}-${da}`;
 }
 
-module.exports = { date }
+function url() {
+    const url = `https://www.crunchyroll.com/simulcastcalendar?filter=premium&date=`
+    return url;
+}
+
+module.exports = { date, url }
