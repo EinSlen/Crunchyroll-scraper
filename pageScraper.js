@@ -1,5 +1,4 @@
-const { date } = require('./function')
-const { url } = require('./package.json');
+const { date, url } = require('./function');
 
 const scraperObject = {
     url: `${url}${date()}`,
