@@ -1,7 +1,7 @@
 const { date, url } = require('./function');
 
 const scraperObject = {
-    url: `${url}${date()}`,
+    url: `${url()}${date()}`,
     async scraper(browser){
         let page = await browser.newPage();
         console.log(`Navigating to ${this.url}...`);
