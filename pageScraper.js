@@ -20,9 +20,8 @@ const scraperObject = {
                 let title = document.querySelectorAll('cite')[i].innerContent
                 let time = document.querySelectorAll('.available-time')[i].innerContent
                 let episode = document.querySelectorAll('.available-episode-link')[i].innerContent
-                return { title, time, episode }
             }
-            return result;
+            return { title, time, episode };
         })
         console.log(result);
         await browser.close();
